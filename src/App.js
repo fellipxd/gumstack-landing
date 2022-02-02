@@ -9,12 +9,12 @@ import { InTouch } from './components/inTouch/inTouch';
 import { Meet } from './components/meet/meet';
 import { Schedule } from './components/schedule/schedule';
 import { Support } from './components/support/Support';
-import {Bar} from './components/Navbar/Navbar'
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Bar/> */}
+      
       <Hero/>
       <InTouch/>
       <Schedule/>
