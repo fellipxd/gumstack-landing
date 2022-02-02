@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Company } from './components/company/company';
+import { Footer } from './components/footer/footer';
+import { Hero } from './components/hero/hero';
+import { Integrate } from './components/integrate/Integrate';
+import { InTouch } from './components/inTouch/inTouch';
+import { Meet } from './components/meet/meet';
+import { Schedule } from './components/schedule/schedule';
+import { Support } from './components/support/Support';
+import {Bar} from './components/Navbar/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Bar/> */}
+      <Hero/>
+      <InTouch/>
+      <Schedule/>
+      <Integrate/>
+      <Support/>
+      <Company/>
+      <Meet/>
+      <Footer/>
     </div>
   );
 }
